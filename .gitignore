@@ -1,0 +1,43 @@
+# This account specific this is temporary
+################################################
+/__ver1_.git/
+/__ver1_.gitignore
+
+# Ignore system folders, you should have them symlinked.
+# If not comment out the following entries.
+################################################
+/typo3
+/typo3_src
+/typo3_src-*
+/.htaccess
+/index.php
+/typo3cms
+
+
+# Temp files #
+################################################
+temp_*.*
+/typo3temp
+/fileadmin/_temp_
+
+
+# Config #
+################################################
+/typo3conf/LocalConfiguration.php
+/typo3conf/PackageStates.php
+/typo3conf/ENABLE_INSTALL_TOOL
+/typo3conf/FIRST_INSTALL
+/typo3conf/l10n/*
+/typo3conf/ext/*
+/typo3conf/autoload/
+
+
+# User Upload #
+################################################
+/uploads
+/fileadmin/user_upload
+
+
+# PhpStorm #
+################################################
+/.idea
