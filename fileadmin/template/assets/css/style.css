@@ -382,8 +382,9 @@ td {
 	General styles
 \***************************************************************/
 body {
-	background:gold;
+	background:red;
 	color:#fff;
+	font-size:0.875rem;
 }
 
 h1 {
